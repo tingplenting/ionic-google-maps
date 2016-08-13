@@ -1,17 +1,21 @@
 ### Plugins
 
-ngCordova
+ngCordova:
+```sh
+$ bower install ngCordova
+```
 
-`bower install ngCordova`
+```javascript
+<script src="lib/ngCordova/dist/ng-cordova.js"></script>
+<script src="cordova.js"></script>
+```
 
-`<script src="lib/ngCordova/dist/ng-cordova.js"></script>
-
-<script src="cordova.js"></script>`
-
-Geolocation
-
-`cordova plugin add cordova-plugin-geolocation`
+Geolocation:
+```sh
+$ cordova plugin add cordova-plugin-geolocation
+```
 
 Compass
-
-`cordova plugin add cordova-plugin-device-orientation`
+```sh
+$ cordova plugin add cordova-plugin-device-orientation
+```
